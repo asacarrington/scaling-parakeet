@@ -110,3 +110,4 @@
  2016-06-11 12:39:06,911 [P15324/D2/T27] INFO  Jumoo.uSync.BackOffice.Handlers.LanguageHandler - Exporting all Langauges
  2016-06-11 12:39:06,916 [P15324/D2/T27] INFO  Jumoo.uSync.BackOffice.Handlers.DictionaryHandler - Exporting all Dictionary Items
  2016-06-11 12:39:06,919 [P15324/D2/T27] INFO  Jumoo.uSync.BackOffice.Handlers.MacroHandler - Exporting all Macros
+ 2016-06-11 12:44:14,945 [P15324/D2/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
