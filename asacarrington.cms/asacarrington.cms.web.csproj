@@ -361,12 +361,20 @@
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Gulpfile.js" />
+    <Content Include="public\main-056e00f422.js" />
+    <Content Include="public\main-fc1454db43.css" />
+    <Content Include="public\vendor-f1bc8e3b9f.js" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="scripts\analytics\analytics.js" />
+    <Content Include="scripts\config\requirejs.config.js" />
+    <Content Include="scripts\modules\analytics.js" />
+    <Content Include="scripts\modules\analytics\analytics.js" />
+    <Content Include="scripts\config\bundle.config.js" />
     <Content Include="scripts\dist\app.js" />
+    <Content Include="scripts\modules\contact.js" />
     <Content Include="scripts\src\app.js" />
     <Content Include="scripts\vendor\jquery-3.0.0.min.js" />
+    <Content Include="scripts\vendor\require.js" />
     <Content Include="styles\css\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -416,6 +424,10 @@
     <Content Include="styles\sass\style.scss" />
     <Content Include="Views\Master.cshtml" />
     <Content Include="Views\Homepage.cshtml" />
+    <Content Include="public\maps\main-056e00f422.js.map" />
+    <Content Include="public\maps\main-fc1454db43.css.map" />
+    <Content Include="public\maps\vendor-f1bc8e3b9f.js.map" />
+    <Content Include="scripts\main.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
