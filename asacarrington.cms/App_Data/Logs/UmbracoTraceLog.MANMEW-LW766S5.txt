@@ -1,56 +1,322 @@
-﻿ 2016-06-23 10:12:43,841 [P1808/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on MANMEW-LW766S5
- 2016-06-23 10:12:43,904 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2016-06-23 10:12:43,935 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 31ms)
- 2016-06-23 10:12:44,044 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
- 2016-06-23 10:12:44,607 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 564ms)
- 2016-06-23 10:12:44,622 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2016-06-23 10:12:44,638 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 11ms)
- 2016-06-23 10:12:44,638 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2016-06-23 10:12:44,654 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 13ms)
- 2016-06-23 10:12:44,685 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
- 2016-06-23 10:12:44,685 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
- 2016-06-23 10:12:44,685 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
- 2016-06-23 10:12:44,700 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 14ms)
- 2016-06-23 10:12:44,810 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
- 2016-06-23 10:12:44,825 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 16ms)
- 2016-06-23 10:12:44,825 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
- 2016-06-23 10:12:44,841 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 12ms)
- 2016-06-23 10:12:46,917 [P1808/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-06-23 10:12:47,244 [P1808/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-06-23 10:12:47,260 [P1808/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-06-23 10:12:47,292 [P1808/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
- 2016-06-23 10:12:47,323 [P1808/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
- 2016-06-23 10:12:47,448 [P1808/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
- 2016-06-23 10:12:47,448 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
- 2016-06-23 10:12:47,464 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
- 2016-06-23 10:12:47,464 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 8
- 2016-06-23 10:12:47,479 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Post Import Handlers : 3
- 2016-06-23 10:12:47,760 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running Full uSync Import
- 2016-06-23 10:12:47,760 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
- 2016-06-23 10:12:47,807 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
- 2016-06-23 10:12:47,823 [P1808/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 16ms)
- 2016-06-23 10:12:48,337 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 0 changes 0 failures
- 2016-06-23 10:12:48,337 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
- 2016-06-23 10:12:48,493 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 2 Items 0 changes 0 failures
- 2016-06-23 10:12:48,493 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
- 2016-06-23 10:12:48,961 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
- 2016-06-23 10:12:48,961 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
- 2016-06-23 10:12:49,398 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
- 2016-06-23 10:12:49,398 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
- 2016-06-23 10:12:49,429 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
- 2016-06-23 10:12:49,429 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
- 2016-06-23 10:12:49,429 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
- 2016-06-23 10:12:49,429 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
- 2016-06-23 10:12:49,429 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
- 2016-06-23 10:12:49,445 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
- 2016-06-23 10:12:49,445 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 31 items with 0 changes ###
- 2016-06-23 10:12:49,445 [P1808/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (1992ms)
- 2016-06-23 10:12:49,476 [P1808/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5815ms)
- 2016-06-23 10:12:51,427 [P1808/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:63473/umbraco (UmbracoModule request)
- 2016-06-23 10:12:51,973 [P1808/D2/T7] INFO  umbraco.content - Load Xml from file...
- 2016-06-23 10:12:51,985 [P1808/D2/T7] INFO  umbraco.content - Loaded Xml from file.
- 2016-06-23 10:12:52,185 [P1808/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-06-23 10:12:52,216 [P1808/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 26ms)
- 2016-06-23 10:13:11,677 [P1808/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-06-23 10:13:37,805 [P1808/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-06-23 10:13:52,159 [P1808/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-22 10:13:52
+﻿ 2016-06-24 11:04:47,255 [P13736/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on MANMEW-LW766S5
+ 2016-06-24 11:04:47,358 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-06-24 11:04:47,380 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 21ms)
+ 2016-06-24 11:04:47,489 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-06-24 11:04:48,001 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 511ms)
+ 2016-06-24 11:04:48,024 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-06-24 11:04:48,038 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 13ms)
+ 2016-06-24 11:04:48,039 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-06-24 11:04:48,049 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 9ms)
+ 2016-06-24 11:04:48,078 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-06-24 11:04:48,086 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 8ms)
+ 2016-06-24 11:04:48,088 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-06-24 11:04:48,100 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 12ms)
+ 2016-06-24 11:04:48,297 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-06-24 11:04:48,309 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 11ms)
+ 2016-06-24 11:04:48,311 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-06-24 11:04:48,319 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 8ms)
+ 2016-06-24 11:04:50,367 [P13736/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-24 11:04:50,812 [P13736/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-24 11:04:50,816 [P13736/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-24 11:04:50,853 [P13736/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-06-24 11:04:50,880 [P13736/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-06-24 11:04:50,994 [P13736/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-06-24 11:04:51,003 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2016-06-24 11:04:51,008 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2016-06-24 11:04:51,014 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 8
+ 2016-06-24 11:04:51,027 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Post Import Handlers : 3
+ 2016-06-24 11:04:51,310 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running Full uSync Import
+ 2016-06-24 11:04:51,321 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2016-06-24 11:04:51,354 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-06-24 11:04:51,367 [P13736/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 13ms)
+ 2016-06-24 11:04:51,867 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 0 changes 0 failures
+ 2016-06-24 11:04:51,868 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2016-06-24 11:04:52,015 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 2 Items 0 changes 0 failures
+ 2016-06-24 11:04:52,016 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2016-06-24 11:04:53,220 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-06-24 11:04:53,220 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2016-06-24 11:04:53,819 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2016-06-24 11:04:53,819 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2016-06-24 11:04:53,863 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-06-24 11:04:53,863 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2016-06-24 11:04:53,864 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-06-24 11:04:53,864 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2016-06-24 11:04:53,865 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-06-24 11:04:53,874 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
+ 2016-06-24 11:04:53,881 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 31 items with 0 changes ###
+ 2016-06-24 11:04:53,885 [P13736/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (2877ms)
+ 2016-06-24 11:04:53,930 [P13736/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6815ms)
+ 2016-06-24 11:04:58,436 [P13736/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:63473/umbraco (UmbracoModule request)
+ 2016-06-24 11:05:08,868 [P13736/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2016-06-24 11:05:08,878 [P13736/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2016-06-24 11:05:09,095 [P13736/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-06-24 11:05:09,124 [P13736/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 28ms)
+ 2016-06-24 11:05:47,449 [P13736/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username asacarrington@gmail.com from IP address ::1
+ 2016-06-24 11:05:55,783 [P13736/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username asacarrington from IP address ::1
+ 2016-06-24 11:06:03,910 [P13736/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username asacarrington@gmail.com from IP address ::1
+ 2016-06-24 11:06:08,990 [P13736/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-23 11:06:08
+ 2016-06-24 11:06:21,528 [P13736/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address ::1
+ 2016-06-24 11:06:24,491 [P13736/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address ::1
+ 2016-06-24 11:06:26,713 [P13736/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address ::1
+ 2016-06-24 11:06:31,406 [P13736/D2/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address ::1
+ 2016-06-24 11:08:10,409 [P13736/D2/T22] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username asacarrington@live.co.uk from IP address ::1
+ 2016-06-24 11:08:10,411 [P13736/D2/T22] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: asacarrington@live.co.uk logged in from IP address ::1
+ 2016-06-24 11:08:10,663 [P13736/D2/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-24 11:08:10,674 [P13736/D2/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 11ms)
+ 2016-06-24 11:08:11,125 [P13736/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-06-24 11:08:11,145 [P13736/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 19ms)
+ 2016-06-24 11:08:11,875 [P13736/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-24 11:08:11,875 [P13736/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-24 11:08:11,881 [P13736/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-06-24 11:08:11,927 [P13736/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 45ms)
+ 2016-06-24 11:08:12,091 [P13736/D2/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-06-24 11:08:12,123 [P13736/D2/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 32ms)
+ 2016-06-24 11:08:37,862 [P13736/D2/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-06-24 11:08:37,880 [P13736/D2/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 18ms)
+ 2016-06-24 11:08:37,931 [P13736/D2/T29] INFO  Jumoo.uSync.BackOffice.Handlers.MacroHandler - Save: Saving uSync file for item: ContactForm
+ 2016-06-24 11:08:44,384 [P13736/D2/T34] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-06-24 11:08:44,385 [P13736/D2/T34] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-06-24 11:08:56,471 [P13736/D2/T25] INFO  Jumoo.uSync.BackOffice.Handlers.MacroHandler - Save: Saving uSync file for item: ContactForm
+ 2016-06-24 11:09:31,376 [P13736/D2/T25] INFO  Jumoo.uSync.BackOffice.Handlers.TemplateHandler - Save: Saving uSync file for item: Homepage
+ 2016-06-24 11:09:50,395 [P13736/D2/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-06-24 11:09:50,404 [P13736/D2/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 8ms)
+ 2016-06-24 11:10:16,015 [P13736/D2/T33] WARN  umbraco.macro - Error loading partial view macro (View: ~/Views/MacroPartials/Contact/ContactForm.cshtml). Exception: System.InvalidOperationException: No route in the route table matches the supplied values.
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName)
+   at ASP._Page_Views_MacroPartials_Contact_ContactForm_cshtml.Execute() in c:\Users\Asa.Carrington\Documents\projects\asacarrington.cms\Views\MacroPartials\Contact\ContactForm.cshtml:line 1
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode node)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2016-06-24 11:10:16,016 [P13736/D2/T33] WARN  umbraco.macro - Error loading Partial View (file: ~/Views/MacroPartials/Contact/ContactForm.cshtml). Exception: System.InvalidOperationException: No route in the route table matches the supplied values.
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName)
+   at ASP._Page_Views_MacroPartials_Contact_ContactForm_cshtml.Execute() in c:\Users\Asa.Carrington\Documents\projects\asacarrington.cms\Views\MacroPartials\Contact\ContactForm.cshtml:line 1
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode node)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2016-06-24 11:17:08,787 [P13748/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on MANMEW-LW766S5
+ 2016-06-24 11:17:08,923 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-06-24 11:17:08,941 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 18ms)
+ 2016-06-24 11:17:09,022 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-06-24 11:17:09,189 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 167ms)
+ 2016-06-24 11:17:09,277 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-06-24 11:17:09,280 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2016-06-24 11:17:09,281 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-06-24 11:17:09,284 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 3ms)
+ 2016-06-24 11:17:09,310 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-06-24 11:17:09,337 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 27ms)
+ 2016-06-24 11:17:09,339 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-06-24 11:17:09,375 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 36ms)
+ 2016-06-24 11:17:09,527 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-06-24 11:17:09,529 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2016-06-24 11:17:09,531 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-06-24 11:17:09,532 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2016-06-24 11:17:11,162 [P13748/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-24 11:17:11,498 [P13748/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-24 11:17:11,502 [P13748/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-24 11:17:11,572 [P13748/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-06-24 11:17:11,647 [P13748/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-06-24 11:17:11,741 [P13748/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-06-24 11:17:11,752 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2016-06-24 11:17:11,794 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2016-06-24 11:17:13,665 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 8
+ 2016-06-24 11:17:13,683 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Post Import Handlers : 3
+ 2016-06-24 11:17:13,983 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running Full uSync Import
+ 2016-06-24 11:17:13,997 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2016-06-24 11:17:14,056 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-06-24 11:17:14,060 [P13748/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 4ms)
+ 2016-06-24 11:17:14,453 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 0 changes 0 failures
+ 2016-06-24 11:17:14,454 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2016-06-24 11:17:14,580 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 2 Items 0 changes 0 failures
+ 2016-06-24 11:17:14,581 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2016-06-24 11:17:15,868 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-06-24 11:17:15,871 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2016-06-24 11:17:16,472 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2016-06-24 11:17:16,473 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2016-06-24 11:17:16,509 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-06-24 11:17:16,510 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2016-06-24 11:17:16,511 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-06-24 11:17:16,511 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2016-06-24 11:17:16,579 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-06-24 11:17:16,588 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
+ 2016-06-24 11:17:16,594 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 32 items with 0 changes ###
+ 2016-06-24 11:17:16,596 [P13748/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (4802ms)
+ 2016-06-24 11:17:16,628 [P13748/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 7962ms)
+ 2016-06-24 11:17:19,664 [P13748/D2/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:63473/umbraco (UmbracoModule request)
+ 2016-06-24 11:17:19,752 [P13748/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:63473/umbraco (UmbracoModule request)
+ 2016-06-24 11:17:20,326 [P13748/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2016-06-24 11:17:20,352 [P13748/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2016-06-24 11:17:20,518 [P13748/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-06-24 11:17:20,521 [P13748/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 3ms)
+ 2016-06-24 11:17:26,244 [P13748/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-06-24 11:17:26,246 [P13748/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 1ms)
+ 2016-06-24 11:17:58,023 [P13748/D2/T11] WARN  umbraco.macro - Error loading partial view macro (View: ~/Views/MacroPartials/Contact/ContactForm.cshtml). Exception: System.InvalidOperationException: The partial view 'Contact' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/PartialViewMacro/Contact.aspx
+~/Views/PartialViewMacro/Contact.ascx
+~/Views/Shared/Contact.aspx
+~/Views/Shared/Contact.ascx
+~/Views/PartialViewMacro/Contact.cshtml
+~/Views/PartialViewMacro/Contact.vbhtml
+~/Views/Shared/Contact.cshtml
+~/Views/Shared/Contact.vbhtml
+~/Views/Partials/Contact.cshtml
+~/Views/MacroPartials/Contact.cshtml
+~/Views/Contact.cshtml
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_MacroPartials_Contact_ContactForm_cshtml.Execute() in c:\Users\Asa.Carrington\Documents\projects\asacarrington.cms\Views\MacroPartials\Contact\ContactForm.cshtml:line 1
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode node)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2016-06-24 11:17:58,025 [P13748/D2/T11] WARN  umbraco.macro - Error loading Partial View (file: ~/Views/MacroPartials/Contact/ContactForm.cshtml). Exception: System.InvalidOperationException: The partial view 'Contact' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/PartialViewMacro/Contact.aspx
+~/Views/PartialViewMacro/Contact.ascx
+~/Views/Shared/Contact.aspx
+~/Views/Shared/Contact.ascx
+~/Views/PartialViewMacro/Contact.cshtml
+~/Views/PartialViewMacro/Contact.vbhtml
+~/Views/Shared/Contact.cshtml
+~/Views/Shared/Contact.vbhtml
+~/Views/Partials/Contact.cshtml
+~/Views/MacroPartials/Contact.cshtml
+~/Views/Contact.cshtml
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_MacroPartials_Contact_ContactForm_cshtml.Execute() in c:\Users\Asa.Carrington\Documents\projects\asacarrington.cms\Views\MacroPartials\Contact\ContactForm.cshtml:line 1
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode node)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2016-06-24 11:18:02,518 [P13748/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-24 11:18:12,439 [P13748/D2/T18] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-24 11:18:15,514 [P13748/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-24 11:18:20,394 [P13748/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-24 11:18:20,458 [P13748/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-23 11:18:20
+ 2016-06-24 11:19:40,709 [P13748/D2/T11] WARN  umbraco.macro - Error loading partial view macro (View: ~/Views/MacroPartials/Contact/ContactForm.cshtml). Exception: System.InvalidOperationException: No route in the route table matches the supplied values.
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_MacroPartials_Contact_ContactForm_cshtml.Execute() in c:\Users\Asa.Carrington\Documents\projects\asacarrington.cms\Views\MacroPartials\Contact\ContactForm.cshtml:line 1
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode node)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2016-06-24 11:19:40,709 [P13748/D2/T11] WARN  umbraco.macro - Error loading Partial View (file: ~/Views/MacroPartials/Contact/ContactForm.cshtml). Exception: System.InvalidOperationException: No route in the route table matches the supplied values.
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_MacroPartials_Contact_ContactForm_cshtml.Execute() in c:\Users\Asa.Carrington\Documents\projects\asacarrington.cms\Views\MacroPartials\Contact\ContactForm.cshtml:line 1
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode node)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2016-06-24 11:21:58,865 [P15180/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on MANMEW-LW766S5
+ 2016-06-24 11:21:58,943 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-06-24 11:21:58,962 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 18ms)
+ 2016-06-24 11:21:59,069 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-06-24 11:21:59,626 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 555ms)
+ 2016-06-24 11:21:59,657 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-06-24 11:21:59,669 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 11ms)
+ 2016-06-24 11:21:59,669 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-06-24 11:21:59,678 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 8ms)
+ 2016-06-24 11:21:59,708 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-06-24 11:21:59,717 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+ 2016-06-24 11:21:59,718 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-06-24 11:21:59,731 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 12ms)
+ 2016-06-24 11:21:59,846 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-06-24 11:21:59,857 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 10ms)
+ 2016-06-24 11:21:59,858 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-06-24 11:21:59,867 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 9ms)
+ 2016-06-24 11:22:01,529 [P15180/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-24 11:22:01,858 [P15180/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-24 11:22:01,862 [P15180/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-24 11:22:01,882 [P15180/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-06-24 11:22:01,906 [P15180/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-06-24 11:22:02,015 [P15180/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-06-24 11:22:02,024 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2016-06-24 11:22:02,028 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2016-06-24 11:22:02,034 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 8
+ 2016-06-24 11:22:02,046 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Post Import Handlers : 3
+ 2016-06-24 11:22:02,287 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running Full uSync Import
+ 2016-06-24 11:22:02,300 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2016-06-24 11:22:02,328 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-06-24 11:22:02,339 [P15180/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2016-06-24 11:22:02,747 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 0 changes 0 failures
+ 2016-06-24 11:22:02,748 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2016-06-24 11:22:02,862 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 2 Items 0 changes 0 failures
+ 2016-06-24 11:22:02,863 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2016-06-24 11:22:03,812 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-06-24 11:22:03,813 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2016-06-24 11:22:04,174 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2016-06-24 11:22:04,175 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2016-06-24 11:22:04,196 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-06-24 11:22:04,197 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2016-06-24 11:22:04,198 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-06-24 11:22:04,198 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2016-06-24 11:22:04,247 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-06-24 11:22:04,257 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
+ 2016-06-24 11:22:04,261 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 32 items with 0 changes ###
+ 2016-06-24 11:22:04,263 [P15180/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (2234ms)
+ 2016-06-24 11:22:04,281 [P15180/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5545ms)
+ 2016-06-24 11:22:07,316 [P15180/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:63473/umbraco (UmbracoModule request)
+ 2016-06-24 11:22:17,479 [P15180/D2/T5] INFO  umbraco.content - Load Xml from file...
+ 2016-06-24 11:22:17,481 [P15180/D2/T5] INFO  umbraco.content - Loaded Xml from file.
+ 2016-06-24 11:22:17,628 [P15180/D2/T5] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-24 11:22:18,838 [P15180/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-06-24 11:22:18,861 [P15180/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 22ms)
+ 2016-06-24 11:22:27,435 [P15180/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-06-24 11:22:27,445 [P15180/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 10ms)
+ 2016-06-24 11:22:39,203 [P15180/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-24 11:22:57,392 [P15180/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-24 11:23:01,152 [P15180/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

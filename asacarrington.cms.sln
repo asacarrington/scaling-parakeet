@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asacarrington.cms.web", "as
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asacarrington.cms.tests", "asacarrington.cms.tests\asacarrington.cms.tests.csproj", "{258A15AB-EFE1-421F-9755-53ACC06E6658}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asacarrington.cms.services", "asacarrington.cms.services\asacarrington.cms.services.csproj", "{2F3C1809-00DE-47D9-B0DC-F004EEF16137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asacarrington.cms.domain", "asacarrington.cms.domain\asacarrington.cms.domain.csproj", "{44DE55D4-C418-4972-A9FF-E3D88ACE1FB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{258A15AB-EFE1-421F-9755-53ACC06E6658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{258A15AB-EFE1-421F-9755-53ACC06E6658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{258A15AB-EFE1-421F-9755-53ACC06E6658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3C1809-00DE-47D9-B0DC-F004EEF16137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3C1809-00DE-47D9-B0DC-F004EEF16137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3C1809-00DE-47D9-B0DC-F004EEF16137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3C1809-00DE-47D9-B0DC-F004EEF16137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DE55D4-C418-4972-A9FF-E3D88ACE1FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DE55D4-C418-4972-A9FF-E3D88ACE1FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DE55D4-C418-4972-A9FF-E3D88ACE1FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DE55D4-C418-4972-A9FF-E3D88ACE1FB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
